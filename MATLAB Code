@@ -1,0 +1,59 @@
+/*Hacer pasar un plano por una figura*/
+
+>> P = [1 0 -1 0];
+>> M = [500, -280, 500];
+>> plotShapePlane('36_original.off', P, M);
+
+
+>> info = [18.93 -160 -57.87 64 0.00003 0.99999 0.00003];
+>> transformAndSaveShape('axis.off', info, 'axis2.off');
+
+
+
+>> info = [18.93 -160 -57.87 64 0.00003 0.99999 0.00003];
+>> transformAndSaveShape('axis.off', info, '41_axis.off');
+>> info = [10.02 -160 -60.08 64 0.00003 0.99999 0.00003];
+>> transformAndSaveShape('axis.off', info, '40_axis.off');
+
+
+>> info = [-5.17 -160 19.97 64 0.00003 0.99999 0.00003];
+>> transformAndSaveShape('axis.off', info, '38_axis.off');
+
+>> info = [3.49 -160 17.07 64 0.00003 0.99999 0.00003];
+>> transformAndSaveShape('axis.off', info, '37_axis.off');
+
+>> info = [2.08 -160 43.29 64 0.00003 0.99999 0.00003];
+>> transformAndSaveShape('axis.off', info, '31_axis.off');
+
+>> info = [-6.19 -160 50.95 64 0.00003 0.99999 0.00003];
+>> transformAndSaveShape('axis.off', info, '30_axis.off');
+
+>> info = [11.37 -160 -59.30 64 0.00003 0.99999 0.00003];
+>> transformAndSaveShape('axis.off', info, '21_axis.off');
+
+>> info = [4.75 -160 -47.79 64 0.00003 0.99999 0.00003];
+>> transformAndSaveShape('axis.off', info, '23_axis.off');
+
+
+xLim = 250*[-1 1];
+yLim = 250*[-1.1 -0.1];
+zLim = 250*[-0.5 0.1];
+>> P = [1 0 0 -20.85];
+>> M = [1500, -1800, 1500];
+>> plotShapePlane('01_original.off', P, M);
+
+xLim = 250*[-1 1];
+yLim = 250*[-1.1 -0.1];
+zLim = 250*[-0.5 0.4];
+>> P = [1 0 0 -11.03];
+>> M = [1500, -280, 1500];
+>> plotShapePlane('07_original.off', P, M);
+
+
+>> P = [1 0 0 -2];
+>> M = [1500, -180, 1500];
+>> plotShapePlane('08_original.off', P, M);
+
+>> P = [0 0 1 34.27];
+>> M = [1500, -180, 1500];
+>> plotShapePlane('08_original.off', P, M);
